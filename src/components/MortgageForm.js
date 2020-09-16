@@ -105,7 +105,7 @@ class MortgageForm extends Component {
                 value={this.state.monthly_expenses}
                 onChange={this.handleChange}
                 />
-                <input type="submit" value="Post" />
+                <input type="submit" value="Calculate" />
                 
             </form>
         )
